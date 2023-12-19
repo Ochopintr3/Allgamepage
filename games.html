@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="games.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" href="G.png" type="image/png">
+    <title>G games</title>
+</head>
+<body>
+    <div class="header"></div>
+    <div class="logo" onclick="goToMainPage()"></div>
+    <div class="search-container">
+        <form action="/search">
+            <input type="text" id="search-input" name="query" placeholder="Type here for search...">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><style>svg{fill:#919191}</style><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+            </button>
+        </form>
+    </div>
+    <div id="singin"></div>
+    <a href="#" class="singin" onclick="openSignInPopup()">Sign In</a>
+    
+    <div class="CategoryContainer">
+        <p class="category">Category</p>
+        <div class="check">
+            <label><a href="#" id="all">All</a></label>
+            <label><a href="#" id="popular">Popular Games</a></label>
+            <label><a href="#" id="sale">Games on Sale</a></label>
+            <label><a href="#" id="sellers">Top Sellers</a></label>
+        </div>
+        
+    </div>
+
+    <div class="saleContainer">
+        <div class="firstSale" data-gameid="6">
+            <a href="#" onclick="showGameInfo(6)" class="photoa">
+                <div class="photo"></div>
+            </a>
+            <h2 class="saxeli" onclick="showGameInfo(6)">Assassin's Creed <br>Mirage</h2>
+            <div class="zvezdo"></div>
+            <p class="axali">$29</p>
+            <p class="fasi">Price: <span class="redf1">$90</span></p>
+        </div>
+        <div class="secondSale" data-gameid="5">
+            <a href="#" onclick="showGameInfo(5)">
+                <div class="photo1"></div>
+            </a>
+            <h2 class="saxeli1" onclick="showGameInfo(5)">Alan Wake II</h2>
+            <div class="zvezdo1"></div>
+            <p class="axali1">$9</p>
+            <p class="fasi1">Price: <span class="redf1">$37</span></p>
+        </div>
+        <div class="thirdSale" data-gameid="4">
+            <a href="#" onclick="showGameInfo(4)">
+                <div class="photo2"></div>
+            </a>
+            <h2 class="saxeli2" onclick="showGameInfo(4)">The Front</h2>
+            <div class="zvezdo2"></div>
+            <p class="axali2">$7</p>
+            <p class="fasi2">Price: <span class="redf1">$9</span></p>
+        </div>
+        <div class="firstSale" data-gameid="7">
+            <a href="#" onclick="showGameInfo(7)" class="photoa">
+                <div class="photo3"></div>
+            </a>
+            <h2 class="saxeli3" onclick="showGameInfo(7)">Final Fantasy VII</h2>
+            <div class="zvezdo3"></div>
+            <p class="fasi3">Price: <span class="redf">$29</span></p>
+        </div>
+        <div class="secondSale" data-gameid="8">
+            <a href="#" onclick="showGameInfo(8)">
+                <div class="photo4"></div>
+            </a>
+            <h2 class="saxeli4" onclick="showGameInfo(8)">Dead Island II</h2>
+            <div class="zvezdo4"></div>
+            <p class="fasi4">Price: <span class="redf">$49</span></p>
+        </div>
+        <div class="thirdSale" data-gameid="9">
+            <a href="#" onclick="showGameInfo(9)">
+                <div class="photo5"></div>
+            </a>
+            <h2 class="saxeli5" onclick="showGameInfo(9)">The Witcher</h2>
+            <div class="zvezdo5"></div>
+            <p class="fasi5">Price: <span class="redf">$69</span></p>
+        </div>
+        <div class="firstSale" data-gameid="1">
+            <a href="#" onclick="showGameInfo(1)" class="photoa">
+                <div class="photo6"></div>
+            </a>
+            <h2 class="saxeli6" onclick="showGameInfo(1)">The Last Of Us</h2>
+            <div class="zvezdo6"></div>
+            <p class="fasi6">Price: <span class="redf">$49</span></p>
+        </div>
+        <div class="secondSale" data-gameid="2">
+            <a href="#" onclick="showGameInfo(2)">
+                <div class="photo7"></div>
+            </a>
+            <h2 class="saxeli7" onclick="showGameInfo(2)">Hogwarts Legacy</h2>
+            <div class="zvezdo7"></div>
+            <p class="fasi7">Price: <span class="redf">$29</span></p>
+        </div>
+        <div class="thirdSale" data-gameid="3">
+            <a href="#" onclick="showGameInfo(3)">
+                <div class="photo8"></div>
+            </a>
+            <h2 class="saxeli8" onclick="showGameInfo(3)">Red Dead Redemption II</h2>
+            <div class="zvezdo8"></div>
+            <p class="fasi8">Price: <span class="redf">$79</span></p>
+        </div>
+    </div>
+    
+
+    <div class="footer">
+        <div class="footerNav">
+            <a class="na" href="">Support-A-Creator</a>
+            <a class="na" href="">Careers</a>
+            <a class="na" href="">Company</a>
+            <a class="na" href="">Online Services</a>
+            <a class="na" href="">Community Rules</a>
+        </div>
+        <div class="socials">
+            <a class="fb" href=""></a>
+            <a class="x" href=""></a>
+            <a class="yt" href=""></a>
+        </div>
+    </div>
+    <div class="logo1"></div>
+    <div id="signin-popup">
+        <div class="signin-content">
+            <span class="close-btn" onclick="closeSignInPopup()">&times;</span>
+            <h2 class="signinsatauri">Sign In</h2>
+            <p class="stay">Sign in to stay connected.</p>
+            <form action="#" method="post" id="signin-form" onsubmit="return validateSignInForm(event)">
+                <label class="emailla" for="Email">Email:</label>
+                <input type="email" id="email" name="Email" class="email" required>
+    
+                <label class="passwordla" for="password">Password:</label>
+                <input type="password" id="password" name="password" class="password" required>
+    
+                <button class="signinbtn" type="submit" onclick="validateSignInForm(event)">Sign In</button>
+            </form>
+            <a href="#" class="forgotpa" onclick="openForgotPasswordPopup()">Forgot Password?</a>
+    
+            <p class="donthave">Don't have an account? Click here to <a class="signupd" href="#">sign up</a></p>
+        </div>
+    </div>
+    <div id="signup-popup">
+        <div class="signup-content">
+            <span class="closebtn" onclick="closeSignUpPopup()">&times;</span>
+            <h2 class="signupsatauri">Sign Up</h2>
+            <p class="create">Create your account</p>
+            <form action="#" method="post" id="signup-form" onsubmit="return validateSignUpForm(event)">
+                <label class="fullnamela" for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="FullName" class="fullname" required>
+    
+                <label class="emailla1" for="signup-email">Email:</label>
+                <input type="email" id="signup-email" name="Email" class="email1" required>
+    
+                <label class="phonela" for="phoneNumber">Phone Number:</label>
+                <input type="text" id="phoneNumber" name="PhoneNumber" class="phonenumber" required>
+    
+                <label class="passwordla1" for="signup-password">Password:</label>
+                <input type="password" id="signup-password" name="password" class="password1" required>
+                <div class="agree">
+                    <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+                    <label class="agreeTerms" for="agreeTerms">I agree with the terms of use</label>
+                </div>
+                <button class="signupbtn" type="submit" onclick="return validateSignUpForm()">Sign Up</button>
+
+            </form>
+    
+            <p class="already">Already have an account? <a class="signin-link" href="#" onclick="openSignInPopup()">Sign in here</a></p>
+        </div>
+    </div>
+    <div id="forgot-password-popup" class="password-popup">
+        <div class="password-popup-container"> 
+            <div class="password-content">
+                <span class="close-btnpa" onclick="closeForgotPasswordPopup()">&times;</span>
+                <h2 class="password-title">Forgot Password</h2>
+                <p class="password-instructions">Enter your email address to reset your password.</p>
+                <form action="#" method="post" id="forgot-password-form" onsubmit="return sendResetLink()">
+                    <label class="emailpala" for="reset-email">Email:</label>
+                    <input class="emailpa" type="email" id="reset-email" name="resetEmail" required>
+                <button class="reset-btn" type="submit">Reset Password</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div id="success-popup" class="success-popup">
+        <div class="success-content">
+            <div class="suc-img"></div>
+            <h2 class="success-title">Success!</h2>
+            <p class="success-message">The link has been sent to your email, <br>please check the email and follow the further instructions.</p>
+            <button class="back-to-home-btn" onclick="backToHome()">Back to Home</button>
+        </div>
+    </div>
+    <script src="games.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        function showGameInfo(gameId) {
+            window.location.href = "gamepage.html?id=" + gameId;
+        }
+    </script>
+</body>
+</html>

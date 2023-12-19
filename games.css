@@ -1,0 +1,1071 @@
+.header{
+    background-color: #101010;;
+    width: 100%;
+    height: 72px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 48px;
+    height: 48px;
+    background-image: url(G.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 15px;
+    left: 11%;
+    cursor: pointer;
+}
+#singin{
+    width: 40px;
+    height: 40px;
+    background-image: url(Group\ 34746.png);
+    background-repeat: no-repeat;
+    float: right;
+    right: 15%;
+    top: 17px;
+    position: absolute;
+    cursor: pointer;
+}
+.singin{
+    color: white;
+    float: right;
+    right: 12%;
+    top: 28px;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'inter';
+    font-size: 14px;
+}
+body{
+    background-color: #000;
+}
+.search-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+form {
+    display: inline-block;
+    position: absolute;
+    left: 16%;
+    top: 17px;
+}
+#search-input {
+    width: 100%;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #202020;
+    border-radius: 10px;
+    outline: none;
+    transition: width 0.4s;
+    background-color: #202020;
+    color: white;
+}
+#search-input:focus {
+    width: 100%;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 235px;
+    color: #888;
+    transition: color 0.3s;
+}
+button:hover {
+    color: #333;
+} 
+button svg {
+    width: 18px;
+    height: 18px;
+}
+.footer{
+    height: 150px;
+    width: 100%;
+    top: 1200px;
+    position: absolute;
+    background-color: #101010;
+}
+.logo1{
+    width: 48px;
+    height: 48px;
+    background-image: url(G.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1255px;
+    left: 12%;
+    cursor: pointer;
+}
+.na{
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 200;
+}
+.footerNav{
+    display: flex;
+    gap: 5%;
+    top: 70px;
+    justify-content: center;
+    position: relative;
+}
+.fb{
+    background-image: url(facebook\ 1.png);
+    width: 47px;
+    height: 47px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.x{
+    background-image: url(twitter\ 1.png);
+    width: 47px;
+    height: 47px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.yt{
+    background-image: url(youtube\ 1.png);
+    width: 47px;
+    height: 47px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.socials{
+    display: flex;
+    gap: 10px;
+    top: 37px;
+    float: right;
+    right: 10%;
+    position: relative;
+}
+#signin-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+.signinsatauri{
+    color: #FFF;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 30px;
+}
+.stay{
+    color: #DDD;
+    font-family: 'poppins';
+    font-size: 14px;
+}
+.signin-content {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFF;
+}
+#signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 120px;
+}
+.passwordla {
+    margin-top: 10px;
+    color: #FFF;
+    font-family: 'poppins';
+    font-size: 12px;
+    position: relative;
+    right: 33px;
+    
+}
+.emailla {
+    margin-top: 10px;
+    color: #FFF;
+    font-family: 'poppins';
+    font-size: 12px;
+    position: relative;
+    right: 33px;
+}
+.email {
+    padding: 8px;
+    margin: 5px 0;
+    width: 350px;
+    height: 25px;
+    border-radius: 4px;
+    border: 0px;
+    background: rgba(255, 255, 255, 0.08);
+    position: relative;
+    right: 33px;
+    color: #FFF;
+}
+.password {
+    padding: 8px;
+    margin: 5px 0;
+    width: 350px;
+    height: 25px;
+    border-radius: 4px;
+    border: 0px;
+    background: rgba(255, 255, 255, 0.08);
+    position: relative;
+    right: 33px;
+    color: #FFF;
+}
+.signinbtn {
+    background-color: #FE1F27;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 360px;
+    height: 45px;
+    font-size: 16px;
+    margin-top: 10px;
+    position: absolute;
+    top: 145%; 
+    left: 41%;
+    transform: translate(-50%, -50%); 
+}
+.forgotpa{
+    color: #E00109;
+    text-decoration: none;
+    font-family: 'inter';
+    font-size: 12px;
+    position: relative;
+    top: 210px;
+    float: right;
+    right: 20px;
+}
+.donthave{
+    position: relative;
+    top: 315px;
+    left: 45px;
+    color: #FFF;
+    font-family: 'inter';
+    font-size: 12px;
+    
+}
+.signupd{
+    color: #E00109;
+    text-decoration: none;
+}
+#signup-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+.stay {
+    color: #DDD;
+    font-family: 'poppins';
+    font-size: 14px;
+}
+.signin-content {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 460px; 
+    text-align: center;
+    position: relative;
+}
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFF;
+}
+.signup-content {
+    background-color: #1a1a1a;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    
+}
+.phonela,
+.fullnamela,
+.emailla1,
+.passwordla1 {
+    margin-top: 10px;
+    color: #FFF;
+    font-family: 'poppins';
+    font-size: 12px;
+    position: relative;
+    top: 90px;
+    right: 10px;
+}
+.email1,
+.password1,
+.fullname,
+.phonenumber {
+    padding: 8px;
+    width: 350px;
+    height: 25px;
+    border-radius: 4px;
+    border: 0px;
+    background: rgba(255, 255, 255, 0.08);
+    position: relative;
+    color: #FFF;
+    top: 90px;
+    right: 10px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#agreeTerms {
+    margin-right: 5px;
+    color: #FFF;
+}
+.agreeTerms{
+    color: #FFF;
+    font-family: 'poppins';
+    font-size: 12px;
+
+}
+.agree{
+    top: 115px;
+    position: relative;
+    right: 10px;
+
+}
+.signupbtn {
+    background-color: #FE1F27;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 360px;
+    height: 45px;
+    font-size: 16px;
+    margin-top: 10px;
+    position: absolute;
+    top: 150%; 
+    left: 173px;
+    transform: translate(-50%, -50%); 
+}
+.donthave {
+    position: relative;
+    top: 315px;
+    left: 45px;
+    color: #FFF;
+    font-family: 'inter';
+    font-size: 12px;
+}
+.signin-link {
+    color: #E00109;
+    text-decoration: none;
+}
+.already {
+    margin-top: 20px;
+    color: #FFF;
+    font-family: 'inter';
+    font-size: 13px;
+    top: 72%;
+    
+    position: relative;
+}
+.signupsatauri{
+    color: #FFF;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 30px;
+    top: 20px;
+    position: relative;
+}
+.create{
+    color: #FFF;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+}
+#forgot-password-popup {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+.password-popup-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.password-content {
+    background: #1a1a1a; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    max-width: 90%; 
+    text-align: center;
+    position: relative;
+}
+.close-btnpa {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFF;
+}
+.emailpala, .emailpa {
+    right: 0; 
+}
+.password-title {
+    color: #FFF;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 30px;
+}
+.password-instructions {
+    color: #DDD;
+    font-family: 'poppins';
+    font-size: 14px;
+}
+#forgot-password-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.emailpala{
+    margin-top: 10px;
+    color: #FFF;
+    font-family: 'poppins';
+    font-size: 12px;
+    position: relative;
+    right: 33px;
+    top: 70px;
+}
+.emailpa {
+    padding: 8px;
+    margin: 5px 0;
+    width: 350px;
+    height: 25px;
+    border-radius: 4px;
+    border: 0px;
+    background: rgba(255, 255, 255, 0.08);
+    position: relative;
+    right: 33px;
+    top: 70px;
+    color: #FFF;
+}
+.reset-btn {
+    background-color: #FE1F27;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 360px;
+    height: 45px;
+    font-size: 16px;
+    margin-top: 10px;
+    position: relative;
+    top: 85px;
+    left: -33px;
+}
+#success-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+.success-content {
+    background: #1a1a1a; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+}
+.success-title {
+    color: #FFF;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 30px;
+}
+.success-message {
+    color: #DDD;
+    font-family: 'poppins';
+    font-size: 14px;
+}
+.back-to-home-btn {
+    background-color: #FE1F27;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 380px;
+    font-size: 16px;
+    margin-top: 10px;
+    position: relative;
+    left: 0px;
+    top: 30px;
+}
+.suc-img{
+    background-image: url(Group\ 33604.png);
+    width: 100px;
+    height: 110px;
+    left: 150px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.CategoryContainer{
+    border: 1px solid #888;
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    left: 11%;
+    top: 150px;
+    background-color: #1a1a1a;
+    color: #FFF;
+    font-family: 'poppins';
+    font-size: 14px;
+    border-radius: 10px;
+}
+.category{
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.check{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#all{
+    color: #E00109;
+    text-decoration: none;
+}
+#popular{
+    color: #E00109;
+    text-decoration: none;
+}
+#sale{
+    color: #E00109;
+    text-decoration: none;
+}
+#sellers{
+    color: #E00109;
+    text-decoration: none;
+}
+.firstSale{
+    height: 280px;
+    width: 297px;
+    border-radius: 20px;
+    background: #1B1B1B;
+}
+.secondSale{
+    height: 280px;
+    width: 297px;
+    border-radius: 20px;
+    background: #1B1B1B;
+}
+.thirdSale{
+    height: 280px;
+    width: 297px;
+    border-radius: 20px;
+    background: #1B1B1B;
+}
+.saleContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    top: 150px;
+    left: 30%;
+    gap: 30px;
+    position: absolute;
+}
+.photo{
+    background-image: url(Share_Image_1920x1080_1920x1080-3ec6b92b109d6ebe190c7fd8da23b989.png);
+    width: 265px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.saxeli{
+    color: #FFF;
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    left: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.zvezdo{
+    background-image: url(Group\ 34711.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: -43px;
+    float: right;
+    right: 15px;
+}
+.axali{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    border: 1px solid #FE1F27;
+    width: 25px;
+    text-align: center;
+    background-color: #FE1F27;
+    border-radius: 2px;
+    height: 20px;
+    float: right;
+    top: -20px;
+    position: relative;
+    cursor: default;
+}
+.fasi{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    left: 90px;
+    position: relative;
+    top: -20px;
+    cursor: default;
+}
+.redf1{
+    color: #FE1F27;
+    text-decoration: line-through;
+    text-decoration-color: #FFF;
+}
+.redf{
+    color: #FE1F27;
+}
+.photo1{
+    background-image: url(8aaf9d51-892f-499f-92d9-a5db7aa18032.png);
+    width: 265px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.saxeli1{
+    color: #FFF;
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    left: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.zvezdo1{
+    background-image: url(Group\ 34710.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: -20px;
+    float: right;
+    right: 15px;
+}
+.axali1{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    border: 1px solid #FE1F27;
+    width: 25px;
+    text-align: center;
+    background-color: #FE1F27;
+    border-radius: 2px;
+    height: 20px;
+    float: right;
+    top: 3px;
+    position: relative;
+    cursor: default;
+}
+.fasi1{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    left: 90px;
+    position: relative;
+    top: 3px;
+    cursor: default;
+}
+.photo2{
+    background-image: url(the-front-1cfw8.png);
+    width: 265px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.saxeli2{
+    color: #FFF;
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    left: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.zvezdo2{
+    background-image: url(Group\ 34710.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: -20px;
+    float: right;
+    right: 15px;
+}
+.axali2{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    border: 1px solid #FE1F27;
+    width: 25px;
+    text-align: center;
+    background-color: #FE1F27;
+    border-radius: 2px;
+    height: 20px;
+    float: right;
+    top: 3px;
+    position: relative;
+    cursor: default;
+}
+.fasi2{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    left: 90px;
+    position: relative;
+    top: 3px;
+    cursor: default;
+}
+.photo3{
+    background-image: url(final.jpeg);
+    border-radius: 10px;
+    width: 265px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.saxeli3{
+    color: #FFF;
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    left: 15px;
+    top: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.zvezdo3{
+    background-image: url(Group\ 34709.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    float: right;
+    right: 15px;
+}
+.fasi3{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    left: 62px;
+    position: relative;
+    top: 25px;
+    cursor: default;
+}
+.photo4{
+    background-image: url(dead.jpeg);
+    border-radius: 10px;
+    width: 265px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.saxeli4{
+    color: #FFF;
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    left: 15px;
+    top: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.zvezdo4{
+    background-image: url(Group\ 34710.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    float: right;
+    right: 15px;
+}
+.fasi4{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    left: 62px;
+    position: relative;
+    top: 27px;
+    cursor: default;
+}
+.photo5{
+    background-image: url(witcher.jpg);
+    border-radius: 10px;
+    width: 265px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.saxeli5{
+    color: #FFF;
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    left: 15px;
+    top: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.zvezdo5{
+    background-image: url(Group\ 34710.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    float: right;
+    right: 15px;
+}
+.fasi5{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    left: 62px;
+    position: relative;
+    top: 27px;
+    cursor: default;
+}
+.photo6{
+    background-image: url(lastodus.png);
+    border-radius: 10px;
+    width: 265px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.saxeli6{
+    color: #FFF;
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    left: 15px;
+    top: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.zvezdo6{
+    background-image: url(Group\ 34710.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    float: right;
+    right: 15px;
+}
+.fasi6{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    left: 62px;
+    position: relative;
+    top: 25px;
+    cursor: default;
+}
+.photo7{
+    background-image: url(hogwarts-legacy-uhdpaper.com-hd-3.2837.jpg);
+    border-radius: 10px;
+    width: 265px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.saxeli7{
+    color: #FFF;
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    left: 15px;
+    top: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.zvezdo7{
+    background-image: url(Group\ 34710.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    float: right;
+    right: 15px;
+}
+.fasi7{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    left: 62px;
+    position: relative;
+    top: 27px;
+    cursor: default;
+}
+.photo8{
+    background-image: url(RDR2.jpg);
+    border-radius: 10px;
+    width: 265px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.saxeli8{
+    color: #FFF;
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    left: 15px;
+    top: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.zvezdo8{
+    background-image: url(Group\ 34710.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    float: right;
+    right: 15px;
+}
+.fasi8{
+    color: #FFF;
+    font-family: 'oswald';
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    left: 62px;
+    position: relative;
+    top: 27px;
+    cursor: default;
+}
